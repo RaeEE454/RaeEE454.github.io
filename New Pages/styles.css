@@ -1,0 +1,105 @@
+body{
+    background-image: linear-gradient(white , gray);
+    min-height: 100vh;
+    
+    color: black;
+}
+
+footer{
+    background-color: black;
+    color: grey;
+    
+}
+
+li{
+    color: black;
+}
+
+.card{
+    background-color: azure;
+}
+
+
+/* ***********Links********** */
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover {
+    color: blueviolet;
+}
+
+.card-link{
+    color: black;
+}
+.card-link:hover{
+    color: lightcoral;
+}
+
+/* **************Project Page***************  */
+
+.c-item{
+    height: 700px;
+    
+}
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.c-text{
+    color: black;
+}
+
+.c-title{
+    height: 200px;
+    font-size: 75px;
+    color: #212420;
+}
+
+.c-info{
+    height: 100px;
+    font-size: 30px;
+    
+}
+.c-link{
+    color: #212420;
+}
+.c-link:hover{
+    color:bisque;
+}
+.c-project{
+    margin-top: 25px;
+}
+
+
+@media screen and (min-width: 414px){
+    #carouselExample{
+        height: 45vh;
+        width: auto;
+    }
+    .carousel-item{
+        height: 45vh;
+        width: auto;
+    }
+    
+}
+
+@media (max-width: 1280px){
+    #carouselExample{
+        height: 75vh;
+        width: auto;
+    }
+    .carousel-item{
+        height: 500px;
+        width: 500px;
+    }
+    
+}
+
+
+
+#submitBtn{
+    margin-top: 10px;
+}
