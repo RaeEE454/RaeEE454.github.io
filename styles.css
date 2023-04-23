@@ -1,6 +1,7 @@
 body{
     background-image: linear-gradient(white , gray);
     min-height: 100vh;
+    width: auto;
     
     color: black;
 }
@@ -22,17 +23,21 @@ li{
 
 /* ***** Hero Image/ home page ******* */
 
-.hero-image{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/software.jpg");
-    height: 50vh;
-    width: 700px;
+.hero-image img{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 500px;
     
 }
 
 .hero-text{
+    color: #D3D3D3;
+    font-size:larger;
+
+}
+
+.hero-text a {
     color: #D3D3D3;
 }
 
