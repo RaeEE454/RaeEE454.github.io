@@ -24,21 +24,26 @@ li{
 /* ***** Hero Image/ home page ******* */
 
 .hero-image img{
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
+  position: relative;
+  text-align: center;
+  color: white;
+  max-width: 100%;
+  height: auto;
     
 }
 
 .hero-text{
-    color: #D3D3D3;
-    font-size:larger;
-
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  margin-top: 160px;
+    
 }
 
-.hero-text a {
-    color: #D3D3D3;
+.hero-text a{
+    color: white;
 }
 
 /* ********************** Drop Down ****************** */
