@@ -1,0 +1,23 @@
+- name: Home
+  link: /
+- name: About
+  link: /about.html
+- name: Where I've Been
+  link: /past.html
+- name: Where I am Now
+  link: /present.html
+- name: Where I am Going
+  link: /future.html
+- name: Projects
+  link: /portfolio.html
+- name: Side Projects
+  link: /sideprojects.html
+- name: Blog
+  link: /Blog2.html
+- name: Contact
+  link: /
+- name: LinkedIn
+  link: /https://www.linkedin.com/in/raewatkins53535/
+- name: Email
+  link: /contact.html
+  
