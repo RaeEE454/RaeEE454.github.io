@@ -1,6 +1,4 @@
----
-title: sup
----
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -16,7 +14,8 @@ title: sup
 </head>
 <body>
     <div class="d-flex flex-column min-vh-100"> <!--wrapper-->
-      <nav class="container my-5">
+
+    <nav class="container my-5">
         <h1 class="fw-bold text-center">Rae Watkins</h1>
         <ul class="nav nav-tabs justify-content-center">
             <li class="nav-item">
@@ -37,13 +36,9 @@ title: sup
               <li><a class="dropdown-item" href="sideprojects.html">Side Projects</a></li>
             </ul>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Blog</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="Programming.html">Programming</a></li>
-              <li><a class="dropdown-item" href="jeepadventures.html">Jeep Adventures</a></li>
-            </ul>
-          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li> 
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Contact</a>
             <ul class="dropdown-menu">
@@ -53,17 +48,9 @@ title: sup
           </li>
         </ul>
     </nav>
-    
-
+                    {{ content}}
               
-            <section class="blogs-section">
-                <div class="blog-card">
-                    <img src="img/header.png" class="blog-image" alt="">
-                    <h1 class="blog-title">Lorem ipsum dolor sit amet consectetur.</h1>
-                    <p class="blog-overview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt incidunt fugiat quos porro repellat harum. Adipisci tempora corporis rem cum.</p>
-                    <a href="/" class="btn dark">read</a>
-                </div>
-            </section>
+            
             <!--Footer-->
             <footer class="mt-auto text-center">
               <h5>Website by Rae <span>&copy;</span> 2023
