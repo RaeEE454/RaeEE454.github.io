@@ -16,34 +16,42 @@ ul {
     list-style-type: none;
   }
 
+  
+
 .card{
     background-color: azure;
 }
 
+h1, h2{
+    color: black;
+}
 
-/* ***** Hero Image/ home page ******* */
 
-.hero-image img{
-  position: relative;
-  text-align: center;
-  color: white;
-  max-width: 100%;
-  height: auto;
+
+/* ***** HOME PAGE  ******* */
+.featured-blog{
+    color:black;
+    margin-top: 45px;
+    margin-bottom: 60px;
+    border: ridge black;
     
 }
 
-.hero-text{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  margin-top: 160px;
-    
+.featured-blog a{
+    color: black;
+}
+.featured-blog h2{
+    padding-top: 10px;
 }
 
-.hero-text a{
-    color: white;
+.resume-container{
+    color: #000;
+    margin-top: auto;
+
+}
+
+.resume a{
+    color: #000;
 }
 
 /* ********************** Drop Down ****************** */
@@ -115,30 +123,6 @@ ul {
     margin-top: 25px;
 }
 
-
-@media screen and (min-width: 414px){
-    #carouselExample{
-        height: 45vh;
-        width: auto;
-    }
-    .carousel-item{
-        height: 45vh;
-        width: auto;
-    }
-    
-}
-
-@media (max-width: 1280px){
-    #carouselExample{
-        height: 75vh;
-        width: auto;
-    }
-    .carousel-item{
-        height: 500px;
-        width: 500px;
-    }
-    
-}
 
 
 
