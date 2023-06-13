@@ -23,8 +23,12 @@ ul {
     color: #F0E7D5;
 }
 
-h1, h2{
+h1{
     color: #E8E8E8;
+}
+
+h4{
+    color: #FFCC00;
 }
 
 
@@ -34,12 +38,14 @@ h1, h2{
     margin-top: 45px;
     margin-bottom: 60px;
     color: #F0E7D5;
+
     
     
 }
 
 .featured-blog a{
     color: #FFCC00;
+    text-decoration: none;
 }
 .featured-blog h2{
     padding-top: 10px;
@@ -53,25 +59,38 @@ h1, h2{
 
 }
 
-.resume a{
+.resume-container a{
+    text-decoration: none;
     color: #FFCC00;
-
 }
+
+.resume a{
+    color: #F0E7D5;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+
 
 /* ********************** Drop Down ****************** */
 
 .dropdown-menu{
-    opacity: 0;
+    background-color: #222221;
+    
 }
 .dropdown-item:hover{
-    background-color: #ADD8E6;
+    background-color: #FFCC00;
+}
+
+.dropdown-item {
+    color: #E8E8E8;
 }
 
 
 /* ****** Card body about - present ****** */
 
 .card-body{
-    background-color: #D3D3D3;
+    background-color: #222221;
 }
 
 /* ***********Links********** */
@@ -176,31 +195,13 @@ h1, h2{
     text-transform: capitalize;
 }
 
-/*    ******* Jeep Adventures ******* */ 
+/*  ********************* Blog ****************/
 
-
-.blogs-section{
-    width: 100%;
-    padding: 50px 5vw;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 80px;
+.page-title a{
+    text-decoration: none;
+    color: #FFCC00;
 }
 
-.blog-image{
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-bottom: 10px;
-}
-
-.blog-overview{
-    margin: 10px 0 20px;
-    line-height: 30px;
-}
-
-.btn.dark{
-    background: #1b1b1b;
-    color: #fff;
+.page-title a:hover{
+    color: #F0E7D5;
 }
