@@ -1,9 +1,9 @@
 body{
-    background-image: linear-gradient(white , gray);
+    background-color: #222221;
     min-height: 100vh;
     width: auto;
     
-    color: black;
+    color: #F0E7D5;
 }
 
 footer{
@@ -19,45 +19,49 @@ ul {
   
 
 .card{
-    background-color: azure;
+    background-color: #222221;
+    color: #F0E7D5;
 }
 
 h1, h2{
-    color: black;
+    color: #E8E8E8;
 }
 
 
 
 /* ***** HOME PAGE  ******* */
 .featured-blog{
-    color:black;
     margin-top: 45px;
     margin-bottom: 60px;
-    border: ridge black;
+    color: #F0E7D5;
+    
     
 }
 
 .featured-blog a{
-    color: black;
+    color: #FFCC00;
 }
 .featured-blog h2{
     padding-top: 10px;
+    color: #FFCC00;
+
 }
 
 .resume-container{
-    color: #000;
+    color: #F0E7D5;
     margin-top: auto;
 
 }
 
 .resume a{
-    color: #000;
+    color: #FFCC00;
+
 }
 
 /* ********************** Drop Down ****************** */
 
 .dropdown-menu{
-    background-color: #D3D3D3;
+    opacity: 0;
 }
 .dropdown-item:hover{
     background-color: #ADD8E6;
@@ -72,19 +76,17 @@ h1, h2{
 
 /* ***********Links********** */
 .nav-link{
-    color: black;
+    color: #F0E7D5;
 }
 
 .nav-link:hover {
-    color: #ADD8E6;
+    color: #FFCC00;
 }
 
-.card-link{
-    color: black;
+.card-link {
+    color: #FFCC00;
 }
-.card-link:hover{
-    color: lightcoral;
-}
+
 
 /* **************Project Page***************  */
 
