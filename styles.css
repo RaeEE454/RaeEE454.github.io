@@ -61,6 +61,9 @@ h4{
 .card-body{
     background-color: #222221;
 }
+.card-subtitle{
+    color: #F0E7D5;
+}
 
 /* ********************** Drop Down ****************** */
 
